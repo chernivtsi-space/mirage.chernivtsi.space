@@ -34,7 +34,7 @@ Booking.com 8.2/10 (447), Google 4.2/5 (177). Знімок на 30.09.2026, пл
 Час заїзду/виїзду, кількість номерів, зірковість, email, сайт, Instagram. Парковка — лише «приватна», не «безкоштовна».
 
 ## Forms
-HotelOS (`kp-mirage`): `stay-request` (проживання). Документ `hotels/kp-mirage` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-mirage`): `stay-request` (проживання). Документ `hotels/ch-mirage` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
