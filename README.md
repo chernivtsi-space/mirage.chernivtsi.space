@@ -43,10 +43,20 @@ Booking.com 8.2/10 (447), Google 4.2/5 (177). Знімок на 30.09.2026, пл
 - Address: вул. Руська, 207-В, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#work` Для робочої поїздки
 
 ## Not published
-Час заїзду/виїзду, кількість номерів, зірковість, email, сайт, Instagram. Парковка — лише «приватна», не «безкоштовна».
+Кількість номерів, зірковість, email, сайт, Instagram, «сімейні номери» (Booking водночас забороняє проживання з дітьми), «цілодобова рецепція» (суперечить закритому входу 00:00–04:00). Парковка — «приватна, платна», не «безкоштовна».
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: з’ясувати суперечність Booking: «сімейні номери» проти «проживання з дітьми заборонене»
+- [ ] TODO: з’ясувати, чи працює рецепція цілодобово, якщо вхід зачинено 00:00–04:00, і чи можливий пізній заїзд після 16:00
+- [ ] TODO: дізнатися вартість приватної парковки
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-mirage`): `stay-request` (проживання). Документ `hotels/ch-mirage` у Firestore треба створити вручну, інакше правила відхилять заявки.
